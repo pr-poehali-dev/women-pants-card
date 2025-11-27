@@ -9,7 +9,7 @@ const Index = () => {
               alt="Женские вельветовые брюки"
               className="w-full h-full object-cover"
             />
-            <div className="absolute top-8 left-8 right-8 space-y-1">
+            <div className="absolute top-4 left-8 right-8 space-y-1">
               <h2 className="text-5xl font-light tracking-tight text-black drop-shadow-sm">
                 Женские брюки
               </h2>
