@@ -17,6 +17,11 @@ const Index = () => {
                 Вельветовые
               </p>
             </div>
+            <div className="absolute right-8 top-1/2 -translate-y-1/2 -rotate-90 origin-center">
+              <p className="text-lg text-black font-light drop-shadow-sm whitespace-nowrap">
+                80% хлопок
+              </p>
+            </div>
           </div>
         </div>
       </div>
