@@ -12,25 +12,24 @@ const Index = () => {
       <Card className="max-w-4xl w-full overflow-hidden border-0 shadow-none">
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 p-6 md:p-12">
           <div className="relative group">
-            <div className="aspect-[3/4] overflow-hidden bg-gray-50">
+            <div className="aspect-[3/4] overflow-hidden bg-gray-50 relative">
               <img
-                src="https://cdn.poehali.dev/files/177f7748-d6d9-4893-aa25-c0d075599e12.png"
+                src="https://cdn.poehali.dev/files/a49d6173-e866-425d-9847-4d57ef40bcc4.png"
                 alt="Женские вельветовые брюки"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
+              <div className="absolute top-8 left-8 right-8 space-y-1">
+                <h2 className="text-5xl md:text-6xl font-light tracking-tight text-black drop-shadow-sm">
+                  Женские брюки
+                </h2>
+                <p className="text-2xl md:text-3xl text-black font-light drop-shadow-sm">
+                  Вельветовые
+                </p>
+              </div>
             </div>
           </div>
 
           <div className="flex flex-col justify-center space-y-6">
-            <div className="space-y-2">
-              <h1 className="text-4xl md:text-5xl font-light tracking-tight text-black">
-                Женские брюки
-              </h1>
-              <p className="text-lg md:text-xl text-gray-600 font-light">
-                Вельветовые
-              </p>
-            </div>
-
             <div className="h-px bg-gray-200 w-full" />
 
             <div className="space-y-4">
